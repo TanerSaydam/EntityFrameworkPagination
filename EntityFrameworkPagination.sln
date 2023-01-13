@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkPagination", "EntityFrameworkPagination.csproj", "{9E7ABE7A-E234-432F-A6E7-F18443999CF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkPagination.Nuget", "..\EntityFrameworkPagination.Nuget\EntityFrameworkPagination.Nuget.csproj", "{AE2CC055-C0D4-4C1C-AC89-1DF8BF646670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9E7ABE7A-E234-432F-A6E7-F18443999CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7ABE7A-E234-432F-A6E7-F18443999CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7ABE7A-E234-432F-A6E7-F18443999CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2CC055-C0D4-4C1C-AC89-1DF8BF646670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2CC055-C0D4-4C1C-AC89-1DF8BF646670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2CC055-C0D4-4C1C-AC89-1DF8BF646670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2CC055-C0D4-4C1C-AC89-1DF8BF646670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

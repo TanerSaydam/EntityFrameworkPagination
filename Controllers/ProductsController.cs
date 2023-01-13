@@ -1,8 +1,6 @@
 ﻿using EntityFrameworkPagination.Context;
 using EntityFrameworkPagination.Pagination;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace EntityFrameworkPagination.Controllers
 {
