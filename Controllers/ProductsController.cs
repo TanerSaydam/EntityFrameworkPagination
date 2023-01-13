@@ -23,13 +23,6 @@ namespace EntityFrameworkPagination.Controllers
             var products = await _context.Products
                 .ToPagedListAsync(pageNumber, pageSize);
 
-            //pageNumber
-            //pageSize
-            //TotalPages
-            //isFirstPage
-            //isLastPage
-            //datas
-
             return Ok(products);
         }
     }
