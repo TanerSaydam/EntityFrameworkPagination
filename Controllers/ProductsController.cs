@@ -1,4 +1,5 @@
 ﻿using EntityFrameworkPagination.Context;
+using EntityFrameworkPagination.Pagination;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,9 +18,18 @@ namespace EntityFrameworkPagination.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetProducts()
+        public async Task<IActionResult> GetProducts(int pageNumber = 1, int pageSize = 15)
         {
-            var products = await _context.Products.ToListAsync();
+            var products = await _context.Products
+                .ToPagedListAsync(pageNumber, pageSize);
+
+            //pageNumber
+            //pageSize
+            //TotalPages
+            //isFirstPage
+            //isLastPage
+            //datas
+
             return Ok(products);
         }
     }
